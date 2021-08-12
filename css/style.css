@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Fira Sans", sans-serif;
+}
+main{
+    margin: 30px;
+}
+header{
+    text-align: center;
+    padding: 70px;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    color: whitesmoke;
+    font-weight: bold;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    color: whitesmoke;
+}
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.caja{
+    width: 24%;
+    margin: 10px;
+}
+img{
+    width: 100%;
+}
+
+@media all and (min-width:768px) and (max-width:991px){
+
+    .caja{
+        width: 30%;
+    }
+}
+@media all and (min-width:320px) and (max-width:767pxh){
+    .caja{
+        width: 95%;
+    }
+
+}
+
